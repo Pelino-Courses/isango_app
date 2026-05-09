@@ -5,6 +5,7 @@ import 'package:isango_app/screens/saved/saved_screen.dart';
 import 'package:isango_app/screens/settings/settings_screen.dart';
 import 'package:isango_app/screens/signup/signup.dart';
 import 'package:isango_app/screens/submit/submit_screen.dart';
+import 'package:isango_app/screens/verify_email/verify_email_screen.dart';
 
 import 'core/constants/app_routes.dart';
 import 'core/theme/app_theme.dart';
@@ -26,6 +27,7 @@ class IsangoApp extends StatelessWidget {
         AppRoutes.settings:(context) => const SettingsScreen(),
         AppRoutes.login: (context) => const LoginScreen(),
         AppRoutes.signUp: (context) => const SignupScreen(),
+        AppRoutes.verifyEmail: (context) => const EmailVerificationScreen(),
 
 
       },
